@@ -16,4 +16,4 @@ words = [
     "animosity",
 ]
 for word in words:
-    print("{}\t\t{}".format(word, server.predict(word)))
+    print("{:<15}\t\t{}".format(word, server.predict(word)))

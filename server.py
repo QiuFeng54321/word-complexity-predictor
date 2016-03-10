@@ -1,6 +1,8 @@
 from predictor import WordComplexityPredictor
 from xmlrpc.server import SimpleXMLRPCRequestHandler, SimpleXMLRPCServer
 
+import constants
+
 # Restrict to a particular path.
 class RequestHandler(SimpleXMLRPCRequestHandler):
     rpc_paths = ('/RPC2',)
