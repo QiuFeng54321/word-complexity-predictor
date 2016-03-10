@@ -4,12 +4,12 @@ word is seen to second-language English speakers.
 
 It uses a Decision Tree Regressor (implemented by scikit-learn) to perform its
 work. The model uses five different features of a word:
--- Lemma length
--- Average age-of-acquisition (at what age a word is most likely to enter
+* Lemma length
+* Average age-of-acquisition (at what age a word is most likely to enter
    someone's vocabulary)
--- Average concreteness (a score of 1 to 5, with 5 being very concrete)
--- Frequency in a certain corpus
--- Lemma frequency in a certain corpus
+* Average concreteness (a score of 1 to 5, with 5 being very concrete)
+* Frequency in a certain corpus
+* Lemma frequency in a certain corpus
 
 This work is based off of a machine learning system submitted to a natural
 language processing workshop, called the Semantic Evaluation Exercises
@@ -24,11 +24,11 @@ The machine learning system comes already trained on the data provided by Task
 
 Requirements
 ============
-Python 3+
-nltk 3.0.1+
-numpy 1.9.1+
-pandas 0.17.1+
-scikit-learn 0.17+
+* Python 3+
+* nltk 3.0.1+
+* numpy 1.9.1+
+* pandas 0.17.1+
+* scikit-learn 0.17+
 
 
 To Run
