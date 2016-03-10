@@ -22,18 +22,7 @@ The machine learning system comes already trained on the data provided by Task
 11, so you don't have to worry about finding data to train it with.
 
 
-TO RUN
-======
-1. First, ensure that you install the requirements by activating your virtualenv
-and running "pip install -r requirements.txt".
-3. Edit "constants.py" to change the port number to something that's convenient
-for you.
-2. In one Terminal window, run "python3 server.py" to start the server.
-3. In another window, run "python3 client.py" to test that the server workshop
-correctly.
-
-
-REQUIREMENTS
+Requirements
 ============
 Python 3+
 nltk 3.0.1+
@@ -42,14 +31,25 @@ pandas 0.17.1+
 scikit-learn 0.17+
 
 
-LINKS
+To Run
+======
+1. First, ensure that you install the requirements by activating your virtualenv
+and running "pip install -r requirements.txt".
+3. Edit "constants.py" to change the port number to something that's convenient
+for you.
+2. In one Terminal window, run "python3 server.py" to start the server.
+3. In another window, run "python3 client.py" to test that the server works
+correctly.
+
+
+Links
 =====
-Final Paper on System: TBD
+Final Paper Submitted to SemEval-2016: TBD
 SemEval-2016 Task 11 Description: http://alt.qcri.org/semeval2016/task11/
 Related Work: https://hmcsimplification.wordpress.com/author/mauryquijada/
 
 
-RESOURCES USED
+Resources Used
 ==============
 Word frequency -- M Davies. 2008. The corpus of contemporary american english:
   520 million words, 1990-present.
