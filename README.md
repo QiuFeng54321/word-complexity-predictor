@@ -1,4 +1,4 @@
-This programs creates a Python XML-RPC server that accepts an English
+This program is a Python XML-RPC server that accepts an English
 word and returns a continuous value (from 0 to 1, inclusive) on how complex that
 word is seen to second-language English speakers.
 
