@@ -35,8 +35,8 @@ To Run
 ======
 1. First, ensure that you install the requirements by activating your virtualenv
 and running "pip install -r requirements.txt".
-3. Edit "constants.py" to change the port number to something that's convenient
-for you.
+3. Edit "constants.py" to change the RPC's port number to something that's
+convenient for you.
 2. In one Terminal window, run "python3 server.py" to start the server.
 3. In another window, run "python3 client.py" to test that the server works
 correctly.
@@ -51,10 +51,10 @@ Related Work: https://hmcsimplification.wordpress.com/author/mauryquijada/
 
 Resources Used
 ==============
-Word frequency -- M Davies. 2008. The corpus of contemporary american english:
-  520 million words, 1990-present.
-Word age-of-acquisition -- V Kuperman et al. 2012. Age-of-acquisition ratings
-  for 30,000 english words. Behavior Research Methods, 44(4):978–990.
-Word concreteness -- M Brysbaert et al. 2013. Concreteness ratings for 40
-  thousand generally known english word lemmas. Behavior Research Methods,
-  46(3):904–911.
+* Word frequency -- M Davies. 2008. The corpus of contemporary american english:
+..520 million words, 1990-present.
+* Word age-of-acquisition -- V Kuperman et al. 2012. Age-of-acquisition ratings
+..for 30,000 english words. Behavior Research Methods, 44(4):978–990.
+* Word concreteness -- M Brysbaert et al. 2013. Concreteness ratings for 40
+..thousand generally known english word lemmas. Behavior Research Methods,
+..46(3):904–911.
