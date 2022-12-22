@@ -14,6 +14,7 @@ words = [
     "parodying",
     "are",
     "animosity",
+    "a"
 ]
 for word in words:
     print("{:<15}\t\t{}".format(word, server.predict(word)))
